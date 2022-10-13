@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.client.app-mergeDebugResources-23:/values-v23/values-v23.xml",
+            "outputFile": "com.example.client.app-mergeDebugResources-38:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\9677e51d22c12d09d10e6f1da12ae0ee\\transformed\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\5935d57e2d8d314bb30dd4a05ecffbea\\transformed\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\21404b36779de21050d6f0e17c5b7d32\\transformed\\material-1.5.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\2a43f56a6da4330c5c1d18ff55fea285\\transformed\\material-1.5.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\99cdfb2757af624329540bc93d7386fa\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\5e876280c8c412fff079642abeca69ff\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
