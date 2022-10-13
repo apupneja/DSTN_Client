@@ -1,9 +1,9 @@
-#Thu Oct 13 13:18:03 IST 2022
-base.2=D\:\\DSTN\\client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+#Fri Oct 14 00:27:01 IST 2022
+base.2=C\:\\Users\\acer\\StudioProjects\\sdpd\\DSTN_Client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 path.2=11/classes.dex
-base.1=D\:\\DSTN\\client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\acer\\StudioProjects\\sdpd\\DSTN_Client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=D\:\\DSTN\\client\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=C\:\\Users\\acer\\StudioProjects\\sdpd\\DSTN_Client\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
