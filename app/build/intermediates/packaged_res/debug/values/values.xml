@@ -7,7 +7,11 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
     <string name="app_name">client</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="msg_client_connected">Connected to a new remote client.</string>
     <string name="msg_client_disconnected">Disconnected a remote client.</string>
     <string name="msg_client_error">Something went wrong.</string>
@@ -16,6 +20,10 @@
     <string name="msg_prefix_server">Server: </string>
     <string name="msg_prefix_sys">System: </string>
     <string name="msg_server_started">Server started, and now is listening on address \'%s\'.</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_main">MainActivity</string>
     <style name="Theme.Client" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
@@ -29,4 +37,10 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         
     </style>
+    <style name="Theme.Client.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Client.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Client.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>
