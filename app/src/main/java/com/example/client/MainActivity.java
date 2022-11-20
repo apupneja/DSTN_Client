@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 if(pressed == 0){
                     pressed = 1;
                     current_status.setText("Sending location...");
-                    send_location.setBackgroundColor(getResources().getColor(R.color.purple_500));
+                    send_location.setBackgroundColor(getResources().getColor(R.color.yellow));
                     GetLocation getLocation = new GetLocation(MainActivity.this);
 
                     for(int i=0;i<100;i++){

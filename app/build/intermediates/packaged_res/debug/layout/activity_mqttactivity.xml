@@ -17,67 +17,102 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:gravity="center_vertical|center_horizontal"/>
-    <EditText
+    <androidx.cardview.widget.CardView
         android:layout_width="353dp"
-        android:layout_height="43dp"
-        android:inputType="textPersonName"
+        android:layout_height="120dp"
         android:ems="10"
-        android:id="@+id/ipAddressField" android:layout_marginTop="28dp"
+        android:id="@+id/info" android:layout_marginTop="28dp"
         app:layout_constraintTop_toBottomOf="@+id/statusLabl" android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp" android:layout_marginStart="8dp"
         app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
         android:hint="Enter broker address"
-        app:layout_constraintHorizontal_bias="0.533"/>
-    <EditText
-        android:layout_width="241dp"
-        android:layout_height="41dp"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/messageField"
-        android:hint="Enter a message"
-        app:layout_constraintStart_toStartOf="@+id/topicField" android:layout_marginTop="20dp"
-        app:layout_constraintTop_toBottomOf="@+id/topicField"/>
-    <EditText
-        android:layout_width="353dp"
-        android:layout_height="41dp"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/topicField"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="16dp"
-        android:hint="Enter Topic to subscribe or listen"
-        android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/ipAddressField"
-        app:layout_constraintStart_toStartOf="@+id/ipAddressField"
-        app:layout_constraintHorizontal_bias="0.0"/>
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@android:color/transparent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Broker Address:"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="broker.hivemq.com"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Topic:"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GeoFence_DSTN_Project1"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
     <Button
-        android:text="Send"
-        android:background="#c9f788"
-        android:layout_width="wrap_content"
+        android:id="@+id/sendBtn"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:id="@+id/sendBtn" app:layout_constraintStart_toEndOf="@+id/messageField"
-        android:layout_marginLeft="20dp" android:layout_marginStart="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/topicField" android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp" android:layout_marginTop="12dp"
-        app:layout_constraintTop_toBottomOf="@+id/topicField" app:layout_constraintHorizontal_bias="0.0"
-        android:onClick="sendMessage"/>
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="12dp"
+        android:background="#c9f788"
+        android:onClick="sendMessage"
+        android:text="Send"
+        app:layout_constraintBottom_toTopOf="@+id/messageHistoryView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/connectBtn"
+        app:layout_constraintVertical_bias="0.241" />
+
     <Button
         android:text="Connect"
         android:background="#c9fcfe"
-        android:layout_width="348dp"
+        android:layout_width="300dp"
         android:layout_height="43dp"
+        app:layout_constraintTop_toBottomOf="@id/info"
+        app:layout_constraintStart_toStartOf="parent"
         android:id="@+id/connectBtn" android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/messageField"
-        app:layout_constraintStart_toStartOf="@+id/messageField"
-        app:layout_constraintEnd_toEndOf="@+id/sendBtn" android:onClick="connect"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="connect"/>
+<!--    <EditText-->
+<!--        android:background="@android:color/transparent"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:scrollbars="vertical"-->
+<!--        android:layout_marginHorizontal="20dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        android:ems="10"-->
+<!--        android:id="@+id/messageHistoryView"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"/>-->
     <EditText
-        android:background="@android:color/transparent"
-        android:layout_width="349dp"
-        android:layout_height="173dp"
         android:inputType="textMultiLine"
-        android:ems="10"
-        android:id="@+id/messageHistoryView" android:layout_marginTop="24dp"
-        app:layout_constraintTop_toBottomOf="@+id/connectBtn"
-        app:layout_constraintStart_toStartOf="@+id/connectBtn" app:layout_constraintEnd_toEndOf="@+id/connectBtn"
-        android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.096"/>
+        android:ems="50"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="300dp"
+        android:id="@+id/messageHistoryView"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

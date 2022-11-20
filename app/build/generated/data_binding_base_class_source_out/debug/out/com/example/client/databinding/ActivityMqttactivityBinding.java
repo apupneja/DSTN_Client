@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -25,10 +26,7 @@ public final class ActivityMqttactivityBinding implements ViewBinding {
   public final Button connectBtn;
 
   @NonNull
-  public final EditText ipAddressField;
-
-  @NonNull
-  public final EditText messageField;
+  public final CardView info;
 
   @NonNull
   public final EditText messageHistoryView;
@@ -39,21 +37,15 @@ public final class ActivityMqttactivityBinding implements ViewBinding {
   @NonNull
   public final TextView statusLabl;
 
-  @NonNull
-  public final EditText topicField;
-
   private ActivityMqttactivityBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button connectBtn, @NonNull EditText ipAddressField, @NonNull EditText messageField,
-      @NonNull EditText messageHistoryView, @NonNull Button sendBtn, @NonNull TextView statusLabl,
-      @NonNull EditText topicField) {
+      @NonNull Button connectBtn, @NonNull CardView info, @NonNull EditText messageHistoryView,
+      @NonNull Button sendBtn, @NonNull TextView statusLabl) {
     this.rootView = rootView;
     this.connectBtn = connectBtn;
-    this.ipAddressField = ipAddressField;
-    this.messageField = messageField;
+    this.info = info;
     this.messageHistoryView = messageHistoryView;
     this.sendBtn = sendBtn;
     this.statusLabl = statusLabl;
-    this.topicField = topicField;
   }
 
   @Override
@@ -89,15 +81,9 @@ public final class ActivityMqttactivityBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.ipAddressField;
-      EditText ipAddressField = ViewBindings.findChildViewById(rootView, id);
-      if (ipAddressField == null) {
-        break missingId;
-      }
-
-      id = R.id.messageField;
-      EditText messageField = ViewBindings.findChildViewById(rootView, id);
-      if (messageField == null) {
+      id = R.id.info;
+      CardView info = ViewBindings.findChildViewById(rootView, id);
+      if (info == null) {
         break missingId;
       }
 
@@ -119,14 +105,8 @@ public final class ActivityMqttactivityBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.topicField;
-      EditText topicField = ViewBindings.findChildViewById(rootView, id);
-      if (topicField == null) {
-        break missingId;
-      }
-
-      return new ActivityMqttactivityBinding((ConstraintLayout) rootView, connectBtn,
-          ipAddressField, messageField, messageHistoryView, sendBtn, statusLabl, topicField);
+      return new ActivityMqttactivityBinding((ConstraintLayout) rootView, connectBtn, info,
+          messageHistoryView, sendBtn, statusLabl);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

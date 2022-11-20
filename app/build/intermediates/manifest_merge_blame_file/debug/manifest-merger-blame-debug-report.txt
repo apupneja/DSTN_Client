@@ -22,99 +22,162 @@
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
 14-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:8:5-68
 14-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:8:22-65
-15
-16    <application
-16-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:10:5-39:19
-17        android:allowBackup="true"
-17-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:11:9-35
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.8.0] C:\Users\acer\.gradle\caches\transforms-3\c1c34bf9c09228efe6799e93d10c25ee\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-19        android:dataExtractionRules="@xml/data_extraction_rules"
-19-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:12:9-65
-20        android:debuggable="true"
-21        android:fullBackupContent="@xml/backup_rules"
-21-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:13:9-54
-22        android:icon="@mipmap/ic_launcher"
-22-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:14:9-43
-23        android:label="@string/app_name"
-23-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:15:9-41
-24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:16:9-54
-25        android:supportsRtl="true"
-25-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:17:9-35
-26        android:theme="@style/Theme.Client" >
-26-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:18:9-44
-27        <activity
-27-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:20:9-22:40
-28            android:name="com.example.client.MainActivity"
-28-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:21:13-41
-29            android:exported="false" />
-29-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:22:13-37
-30        <activity
-30-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:23:9-36:20
-31            android:name="com.example.client.mqtt.MQTTActivity"
-31-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:24:13-46
-32            android:exported="true"
-32-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:25:13-36
-33            android:theme="@style/Theme.Client.NoActionBar" >
-33-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:26:13-60
-34            <intent-filter>
-34-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:27:13-31:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:28:17-69
-35-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:28:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:30:17-77
-37-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:30:27-74
-38            </intent-filter>
-39
-40            <meta-data
-40-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:33:13-35:36
-41                android:name="android.app.lib_name"
-41-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:34:17-52
-42                android:value="" />
-42-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:35:17-33
-43        </activity>
-44
-45        <service android:name="org.eclipse.paho.android.service.MqttService" />
-45-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:38:9-80
-45-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:38:18-77
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:11:5-85
+17-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:11:22-82
+18
+19    <application
+19-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:12:5-48:19
+20        android:allowBackup="true"
+20-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:13:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.8.0] C:\Users\acer\.gradle\caches\transforms-3\c1c34bf9c09228efe6799e93d10c25ee\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:14:9-65
+23        android:debuggable="true"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:15:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:16:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:17:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:18:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:19:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.Client" >
+30-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:20:9-44
+31        <activity
+31-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:23:9-25:40
+32            android:name="com.example.client.currentLocation.GetCurrentLocationActivity"
+32-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:24:13-71
+33            android:exported="false" />
+33-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:25:13-37
+34        <activity
+34-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:26:9-28:40
+35            android:name="com.example.client.mqtt.MQTTActivity"
+35-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:27:13-46
+36            android:exported="false" />
+36-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:28:13-37
+37        <activity
+37-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:29:9-31:40
+38            android:name="com.example.client.MainActivity"
+38-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:30:13-41
+39            android:exported="false" />
+39-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:31:13-37
+40        <activity
+40-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:32:9-45:20
+41            android:name="com.example.client.HomeActivity"
+41-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:33:13-41
+42            android:exported="true"
+42-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:34:13-36
+43            android:theme="@style/Theme.Client.NoActionBar" >
+43-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:35:13-60
+44            <intent-filter>
+44-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:36:13-40:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:37:17-69
+45-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:37:25-66
 46
-47        <uses-library
-47-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-48            android:name="androidx.window.extensions"
-48-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-49            android:required="false" />
-49-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-50        <uses-library
-50-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-51            android:name="androidx.window.sidecar"
-51-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-52            android:required="false" />
-52-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-53
-54        <provider
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-55            android:name="androidx.startup.InitializationProvider"
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-56            android:authorities="com.example.client.androidx-startup"
-56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-57            android:exported="false" >
-57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-58            <meta-data
-58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-60                android:value="androidx.startup" />
-60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-61            <meta-data
-61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\d4e9259cdc05d4f81778f4568707dfc4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\d4e9259cdc05d4f81778f4568707dfc4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-63                android:value="androidx.startup" />
-63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\d4e9259cdc05d4f81778f4568707dfc4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-64        </provider>
-65    </application>
-66
-67</manifest>
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:39:17-77
+47-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:39:27-74
+48            </intent-filter>
+49
+50            <meta-data
+50-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:42:13-44:36
+51                android:name="android.app.lib_name"
+51-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:43:17-52
+52                android:value="" />
+52-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:44:17-33
+53        </activity>
+54
+55        <service android:name="org.eclipse.paho.android.service.MqttService" />
+55-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:47:9-80
+55-->C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:47:18-77
+56
+57        <uses-library
+57-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+58            android:name="androidx.window.extensions"
+58-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+59            android:required="false" />
+59-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+60        <uses-library
+60-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+61            android:name="androidx.window.sidecar"
+61-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+62            android:required="false" />
+62-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+63
+64        <activity
+64-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+72
+73        <activity
+73-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:14:9-17:49
+74            android:name="com.birjuvachhani.locus.LocusActivity"
+74-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:15:13-65
+75            android:launchMode="singleTask"
+75-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:16:13-44
+76            android:theme="@style/LocusTheme" />
+76-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:17:13-46
+77
+78        <receiver
+78-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:19:9-26:20
+79            android:name="com.birjuvachhani.locus.LocationBroadcastReceiver"
+79-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:20:13-77
+80            android:enabled="true"
+80-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:21:13-35
+81            android:exported="false" >
+81-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:22:13-37
+82            <intent-filter>
+82-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:23:13-25:29
+83                <action android:name="com.birjuvachhani.locus.LocationProvider.LocationBroadcastReceiver.action.PROCESS_UPDATES" />
+83-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:24:17-132
+83-->[com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:24:25-129
+84            </intent-filter>
+85        </receiver>
+86
+87        <provider
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+88            android:name="androidx.startup.InitializationProvider"
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+89            android:authorities="com.example.client.androidx-startup"
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+90            android:exported="false" >
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+91            <meta-data
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+93                android:value="androidx.startup" />
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+94            <meta-data
+94-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\d4e9259cdc05d4f81778f4568707dfc4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+95-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\d4e9259cdc05d4f81778f4568707dfc4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+96                android:value="androidx.startup" />
+96-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\d4e9259cdc05d4f81778f4568707dfc4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+97        </provider>
+98    </application>
+99
+100</manifest>

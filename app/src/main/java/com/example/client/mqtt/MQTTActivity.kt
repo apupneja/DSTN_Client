@@ -1,11 +1,15 @@
 package com.example.client.mqtt
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import com.birjuvachhani.locus.Locus
+import com.example.client.GetLocation
+import com.example.client.MessageEndpoint
 import com.example.client.R
 import com.example.client.mqtt.DataClasse.MQTTConnectionParams
 import com.example.client.mqtt.Interface.UIUpdaterInterface
@@ -13,9 +17,6 @@ import com.example.client.mqtt.Interface.UIUpdaterInterface
 class MQTTActivity : AppCompatActivity(), UIUpdaterInterface {
 
     var mqttManager:MQTTmanager? = null
-    lateinit var ipAddressField : EditText
-    lateinit var topicField : EditText
-    lateinit var messageField : EditText
     lateinit var connectBtn : Button
     lateinit var sendBtn : Button
     lateinit var statusLabl : TextView
@@ -23,23 +24,23 @@ class MQTTActivity : AppCompatActivity(), UIUpdaterInterface {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mqttactivity)
-
-        ipAddressField = findViewById<EditText>(R.id.ipAddressField)
-        topicField = findViewById<EditText>(R.id.topicField)
-        messageField = findViewById<EditText>(R.id.messageField)
         connectBtn = findViewById<Button>(R.id.connectBtn)
         sendBtn = findViewById<Button>(R.id.sendBtn)
         statusLabl = findViewById<TextView>(R.id.statusLabl)
         messageHistoryView= findViewById<EditText>(R.id.messageHistoryView)
         // Enable send button and message textfield only after connection
         resetUIWithConnection(false)
+        // starts continuos location updates
+        Locus.startLocationUpdates(this) { result ->
+            result.location?.let {
+
+            }
+            result.error?.let { /* Received error! */ }
+        }
     }
 
     // Interface methods
     override fun resetUIWithConnection(status: Boolean) {
-        ipAddressField.isEnabled  = !status
-        topicField.isEnabled      = !status
-        messageField.isEnabled    = status
         connectBtn.isEnabled      = !status
         sendBtn.isEnabled         = status
 
@@ -70,22 +71,27 @@ class MQTTActivity : AppCompatActivity(), UIUpdaterInterface {
 
 
     fun connect(view: View){
-        if (!(ipAddressField.text.isNullOrEmpty() && topicField.text.isNullOrEmpty())) {
-            var host = "tcp://" + ipAddressField.text.toString() + ":1883"
-            var topic = topicField.text.toString()
+        var host = "tcp://" + "broker.hivemq.com" + ":1883"
+//            var topic = topicField.text.toString()
+            var topic = "GeoFence_DSTN_Project1"
             var connectionParams = MQTTConnectionParams("MQTTSample",host,topic,"","")
             mqttManager = MQTTmanager(connectionParams,applicationContext,this)
             mqttManager?.connect()
-        }else{
-            updateStatusViewWith("Please enter all valid fields")
+
+
+    }
+
+    fun sendMessage(view: View) {
+        val getLocation = GetLocation(this)
+        val mEndpoint = MessageEndpoint(this)
+        getLocation.getData()
+        for (i in 0..99) {
+            getLocation.getData()
+            if (mEndpoint != null) {
+                mqttManager?.publish(Integer.toString(getLocation.id) + " " + java.lang.Double.toString(getLocation.latitude) + " " + java.lang.Double.toString(getLocation.longitude))
+            }
         }
-
     }
 
-    fun sendMessage(view: View){
 
-        mqttManager?.publish(messageField.text.toString())
-
-        messageField.setText("")
-    }
 }

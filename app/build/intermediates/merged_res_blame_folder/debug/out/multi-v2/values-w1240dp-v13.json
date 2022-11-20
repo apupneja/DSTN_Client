@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.client.app-mergeDebugResources-38:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.example.client.app-mergeDebugResources-42:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\acer\\StudioProjects\\sdpd\\DSTN_Client\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "6",
-                        "startOffsets": "18",
+                        "startOffsets": "19",
                         "endColumns": "44",
-                        "endOffsets": "56"
+                        "endOffsets": "57"
                     },
                     "to": {
                         "startLines": "2",

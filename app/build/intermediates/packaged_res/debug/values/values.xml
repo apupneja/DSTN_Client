@@ -7,11 +7,18 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFC107</color>
     <dimen name="fab_margin">16dp</dimen>
     <string name="app_name">client</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="locus_location_resolution_message">This is a permission resolution message.</string>
+    <string name="locus_location_resolution_title">Permission Resolution Title</string>
+    <string name="locus_permission_blocked_message">This is a permission blocked message.</string>
+    <string name="locus_permission_blocked_title">Permission Blocked Title</string>
+    <string name="locus_rationale_message">This is a rationale message.</string>
+    <string name="locus_rationale_title">Rationale Title</string>
     <string name="msg_client_connected">Connected to a new remote client.</string>
     <string name="msg_client_disconnected">Disconnected a remote client.</string>
     <string name="msg_client_error">Something went wrong.</string>
@@ -24,10 +31,10 @@
     <string name="previous">Previous</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="title_activity_main">MainActivity</string>
-    <style name="Theme.Client" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Client" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryVariant">@color/yellow</item>
         <item name="colorOnPrimary">@color/white</item>
         
         <item name="colorSecondary">@color/teal_200</item>
