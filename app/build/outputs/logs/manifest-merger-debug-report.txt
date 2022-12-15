@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\acer\.gradle\caches\transforms-3\858bc98d4614a5e848e25073031c3042\transformed\jetified-viewbinding-7.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.2] C:\Users\acer\.gradle\caches\transforms-3\2264de5b7a41adb7292e670757afb6d6\transformed\navigation-fragment-2.5.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.5.2] C:\Users\acer\.gradle\caches\transforms-3\a83966521fe1c2958236d264020e3605\transformed\jetified-fragment-ktx-1.5.2\AndroidManifest.xml:17:1-24:12
@@ -18,8 +18,13 @@ MERGED from [androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transfor
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\acer\.gradle\caches\transforms-3\2a43f56a6da4330c5c1d18ff55fea285\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\acer\.gradle\caches\transforms-3\180b25870c53971c179c334239c17108\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\acer\.gradle\caches\transforms-3\7f7059741588fd7423a7cdf2c4ffcdcd\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\acer\.gradle\caches\transforms-3\d606caee8c7cccc4b37d69fe1611a859\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\acer\.gradle\caches\transforms-3\5935d57e2d8d314bb30dd4a05ecffbea\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\2fdfb9ea55b72826c940dd329313f521\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\acer\.gradle\caches\transforms-3\e58b40177d1f604dcb625472fe4e47b0\transformed\jetified-play-services-location-20.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\83f59375a3713cbcc380ee6c72729f16\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\acer\.gradle\caches\transforms-3\8c6a5080d9e57d8325b7285b53f14141\transformed\fragment-1.5.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\acer\.gradle\caches\transforms-3\19645e87fae0fcca83fc34026df6bfa2\transformed\jetified-activity-1.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\3f6c8e9406159f1f16be8d5b72ed1362\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -27,6 +32,7 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\acer\.gra
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\7eba164e627fab83b9f470e0bcf24ecc\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\acer\.gradle\caches\transforms-3\5209decdb8ec1718760b39013c2624d8\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\acer\.gradle\caches\transforms-3\b9b3168bd422c1d4c375400e6f308b1a\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\5a931cfd2581ca924d545bc4d6b4ee99\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\acer\.gradle\caches\transforms-3\81ea54cca3ed15decc2038227f7ebf40\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\8a06f4a9590bbed7f85f11f194467570\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -58,22 +64,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\acer\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\acer\.gradle\caches\transforms-3\1b690c16c811e9707bc9d99ef337a156\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\acer\.gradle\caches\transforms-3\5b65923440f6c71922d2f49c4778affb\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\917a7c245bec625a652371f1fa47a407\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:2:11-69
@@ -93,8 +99,20 @@ uses-permission#android.permission.WAKE_LOCK
 ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:8:5-68
 	android:name
 		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:9:5-81
+MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:9:5-81
+MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:10:5-79
+MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:10:22-76
 application
-ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:10:5-39:19
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:12:5-48:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\acer\.gradle\caches\transforms-3\2a43f56a6da4330c5c1d18ff55fea285\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
@@ -103,6 +121,18 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\acer\.gr
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\acer\.gradle\caches\transforms-3\180b25870c53971c179c334239c17108\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\acer\.gradle\caches\transforms-3\7f7059741588fd7423a7cdf2c4ffcdcd\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\acer\.gradle\caches\transforms-3\7f7059741588fd7423a7cdf2c4ffcdcd\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\acer\.gradle\caches\transforms-3\d606caee8c7cccc4b37d69fe1611a859\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\acer\.gradle\caches\transforms-3\d606caee8c7cccc4b37d69fe1611a859\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\acer\.gradle\caches\transforms-3\e58b40177d1f604dcb625472fe4e47b0\transformed\jetified-play-services-location-20.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\acer\.gradle\caches\transforms-3\e58b40177d1f604dcb625472fe4e47b0\transformed\jetified-play-services-location-20.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\83f59375a3713cbcc380ee6c72729f16\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\83f59375a3713cbcc380ee6c72729f16\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:13:5-27:19
+MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:13:5-27:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\d4e9259cdc05d4f81778f4568707dfc4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
@@ -116,57 +146,69 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\acer\.gradle\caches\transforms-3\c1c34bf9c09228efe6799e93d10c25ee\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:17:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:15:9-54
 	android:roundIcon
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:18:9-54
 	tools:targetApi
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:19:9-29
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:21:9-29
 	android:icon
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:18:9-44
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:20:9-44
 	android:dataExtractionRules
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:12:9-65
-activity#com.example.client.MainActivity
-ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:20:9-22:40
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:14:9-65
+activity#com.example.client.currentLocation.GetCurrentLocationActivity
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:24:13-71
 activity#com.example.client.mqtt.MQTTActivity
-ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:23:9-36:20
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:25:13-36
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:27:13-46
+activity#com.example.client.MainActivity
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:30:13-41
+activity#com.example.client.HomeActivity
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:32:9-45:20
+	android:exported
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:34:13-36
 	android:theme
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:26:13-60
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:35:13-60
 	android:name
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:24:13-46
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:33:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:39:27-74
 meta-data#android.app.lib_name
-ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:33:13-35:36
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:42:13-44:36
 	android:value
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:35:17-33
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:44:17-33
 	android:name
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:34:17-52
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:43:17-52
 service#org.eclipse.paho.android.service.MqttService
-ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:38:9-80
+ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:47:9-80
 	android:name
-		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:38:18-77
+		ADDED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml:47:18-77
 uses-sdk
 INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\acer\StudioProjects\sdpd\DSTN_Client\app\src\main\AndroidManifest.xml
@@ -199,10 +241,20 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\acer\.gr
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\acer\.gradle\caches\transforms-3\180b25870c53971c179c334239c17108\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\acer\.gradle\caches\transforms-3\7f7059741588fd7423a7cdf2c4ffcdcd\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\acer\.gradle\caches\transforms-3\7f7059741588fd7423a7cdf2c4ffcdcd\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\acer\.gradle\caches\transforms-3\d606caee8c7cccc4b37d69fe1611a859\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\acer\.gradle\caches\transforms-3\d606caee8c7cccc4b37d69fe1611a859\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\acer\.gradle\caches\transforms-3\5935d57e2d8d314bb30dd4a05ecffbea\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\acer\.gradle\caches\transforms-3\5935d57e2d8d314bb30dd4a05ecffbea\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\2fdfb9ea55b72826c940dd329313f521\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\2fdfb9ea55b72826c940dd329313f521\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\acer\.gradle\caches\transforms-3\e58b40177d1f604dcb625472fe4e47b0\transformed\jetified-play-services-location-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\acer\.gradle\caches\transforms-3\e58b40177d1f604dcb625472fe4e47b0\transformed\jetified-play-services-location-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\83f59375a3713cbcc380ee6c72729f16\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\83f59375a3713cbcc380ee6c72729f16\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\acer\.gradle\caches\transforms-3\8c6a5080d9e57d8325b7285b53f14141\transformed\fragment-1.5.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\acer\.gradle\caches\transforms-3\8c6a5080d9e57d8325b7285b53f14141\transformed\fragment-1.5.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\acer\.gradle\caches\transforms-3\19645e87fae0fcca83fc34026df6bfa2\transformed\jetified-activity-1.5.1\AndroidManifest.xml:20:5-22:41
@@ -217,6 +269,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\acer\.gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\acer\.gradle\caches\transforms-3\5209decdb8ec1718760b39013c2624d8\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\acer\.gradle\caches\transforms-3\b9b3168bd422c1d4c375400e6f308b1a\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\acer\.gradle\caches\transforms-3\b9b3168bd422c1d4c375400e6f308b1a\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\5a931cfd2581ca924d545bc4d6b4ee99\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\5a931cfd2581ca924d545bc4d6b4ee99\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\acer\.gradle\caches\transforms-3\81ea54cca3ed15decc2038227f7ebf40\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
@@ -301,6 +355,46 @@ ADDED from [androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transform
 		ADDED from [androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
 	android:name
 		ADDED from [androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9bae28ad84915707d964d84c8e2ab72b\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:11:5-85
+	android:name
+		ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:11:22-82
+activity#com.birjuvachhani.locus.LocusActivity
+ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:14:9-17:49
+	android:launchMode
+		ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:16:13-44
+	android:theme
+		ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:17:13-46
+	android:name
+		ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:15:13-65
+receiver#com.birjuvachhani.locus.LocationBroadcastReceiver
+ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:19:9-26:20
+	android:enabled
+		ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:21:13-35
+	android:exported
+		ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:20:13-77
+intent-filter#action:name:com.birjuvachhani.locus.LocationProvider.LocationBroadcastReceiver.action.PROCESS_UPDATES
+ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:23:13-25:29
+action#com.birjuvachhani.locus.LocationProvider.LocationBroadcastReceiver.action.PROCESS_UPDATES
+ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:24:17-132
+	android:name
+		ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:24:25-129
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\d4e9259cdc05d4f81778f4568707dfc4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20

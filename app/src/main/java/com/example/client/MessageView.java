@@ -30,7 +30,7 @@ public class MessageView extends AppCompatTextView {
 
     private void init() {
         //hex for black
-        setBackgroundColor(0xFF000000);
+        setBackgroundColor(0xFFFFFFFF);
         setTextSize(12f);
         setVerticalScrollBarEnabled(true);
         setMovementMethod(new ScrollingMovementMethod());

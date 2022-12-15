@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/acer/StudioProjects/sdpd/DSTN_Client/app/src/main/res/layout/activity_get_current_location.xml" value="0.234375" />
+        <entry key="..\:/Users/acer/StudioProjects/sdpd/DSTN_Client/app/src/main/res/layout/activity_home.xml" value="0.234375" />
+        <entry key="..\:/Users/acer/StudioProjects/sdpd/DSTN_Client/app/src/main/res/layout/activity_location.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/acer/StudioProjects/sdpd/DSTN_Client/app/src/main/res/layout/activity_main.xml" value="0.234375" />
         <entry key="..\:/Users/acer/StudioProjects/sdpd/DSTN_Client/app/src/main/res/layout/activity_mqttactivity.xml" value="0.264" />
       </map>
     </option>

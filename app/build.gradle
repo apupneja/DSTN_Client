@@ -9,13 +9,14 @@ android {
 
     defaultConfig {
         applicationId "com.example.client"
-        minSdk 21
+        minSdk 26
         targetSdk 32
         versionCode 1
         versionName "1.0"
-
+        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
 
     buildTypes {
         release {
@@ -46,4 +47,16 @@ dependencies {
     // Paho MQTT
     implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
     implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
+    // Locus
+    implementation 'com.github.BirjuVachhani:locus-android:4.1.0'
+    implementation 'com.google.android.gms:play-services-location:20.0.0'
+
+    //lottie
+    implementation "com.airbnb.android:lottie:3.4.0"
+
+    //avro
+    implementation 'com.github.avro-kotlin.avro4k:avro4k-core:1.6.0'
+
+
+
 }

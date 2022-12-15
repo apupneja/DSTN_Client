@@ -5,30 +5,41 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="26"
         android:targetSdkVersion="32" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
+        android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.Client" >
+        <activity
+            android:name="com.example.client.currentLocation.GetCurrentLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.client.mqtt.MQTTActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.client.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.client.mqtt.MQTTActivity"
+            android:name="com.example.client.HomeActivity"
             android:exported="true"
             android:theme="@style/Theme.Client.NoActionBar" >
             <intent-filter>
@@ -50,6 +61,29 @@
         <uses-library
             android:name="androidx.window.sidecar"
             android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.birjuvachhani.locus.LocusActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/LocusTheme" />
+
+        <receiver
+            android:name="com.birjuvachhani.locus.LocationBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.birjuvachhani.locus.LocationProvider.LocationBroadcastReceiver.action.PROCESS_UPDATES" />
+            </intent-filter>
+        </receiver>
 
         <provider
             android:name="androidx.startup.InitializationProvider"

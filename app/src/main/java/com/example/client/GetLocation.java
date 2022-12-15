@@ -41,7 +41,6 @@ public class GetLocation {
                 longitude = Double.parseDouble(row[0]);
                 latitude = Double.parseDouble(row[1]);
                 id = Integer.parseInt(row[2]);
-
                 nextLine = reader.readLine();
                 break;
             }
