@@ -4,7 +4,7 @@
             "outputFile": "com.example.client.app-mergeDebugResources-42:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\61595db014841a30b6609d46baf22282\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\5d6a263b149ac8bf6c8133e33cac0869\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

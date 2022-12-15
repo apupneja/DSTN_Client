@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\5d6a263b149ac8bf6c8133e33cac0869\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "140",
+                        "endOffsets": "335"
+                    },
+                    "to": {
+                        "startLines": "46",
+                        "startColumns": "4",
+                        "startOffsets": "4485",
+                        "endColumns": "144",
+                        "endOffsets": "4625"
+                    }
+                },
+                {
                     "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\c1c34bf9c09228efe6799e93d10c25ee\\transformed\\core-1.8.0\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2",
@@ -52,23 +69,6 @@
                         "startOffsets": "10070",
                         "endColumns": "100",
                         "endOffsets": "10166"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\61595db014841a30b6609d46baf22282\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-ro\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "140",
-                        "endOffsets": "335"
-                    },
-                    "to": {
-                        "startLines": "46",
-                        "startColumns": "4",
-                        "startOffsets": "4485",
-                        "endColumns": "144",
-                        "endOffsets": "4625"
                     }
                 },
                 {

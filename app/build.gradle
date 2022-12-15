@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.client"
-        minSdk 21
+        minSdk 26
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -53,5 +53,10 @@ dependencies {
 
     //lottie
     implementation "com.airbnb.android:lottie:3.4.0"
+
+    //avro
+    implementation 'com.github.avro-kotlin.avro4k:avro4k-core:1.6.0'
+
+
 
 }

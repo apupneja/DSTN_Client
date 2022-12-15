@@ -25,7 +25,7 @@ class HomeActivity : AppCompatActivity() {
         // starts continuos location updates
         Locus.startLocationUpdates(this) { result ->
             result.location?.let {
-                locTv.text = it.latitude.toString() + "  " + it.longitude.toString() }
+                locTv.text = "Live Coordinates:  " +it.latitude.toString() + ", " + it.longitude.toString() }
             result.error?.let { /* Received error! */ }
         }
 

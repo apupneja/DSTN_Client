@@ -8,10 +8,6 @@
         "source": "com.example.client.app-main-46:/drawable/cable.png"
     },
     {
-        "merged": "com.example.client.app-merged_res-44:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.client.app-pngs-39:/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "com.example.client.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.example.client.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -34,6 +30,10 @@
     {
         "merged": "com.example.client.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.client.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.client.app-merged_res-44:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.client.app-main-46:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "com.example.client.app-merged_res-44:/layout_activity_get_current_location.xml.flat",

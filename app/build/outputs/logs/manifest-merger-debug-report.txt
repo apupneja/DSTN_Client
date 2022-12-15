@@ -21,10 +21,10 @@ MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\acer\.gradle\caches\tran
 MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\acer\.gradle\caches\transforms-3\d606caee8c7cccc4b37d69fe1611a859\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\acer\.gradle\caches\transforms-3\5935d57e2d8d314bb30dd4a05ecffbea\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\2fdfb9ea55b72826c940dd329313f521\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-location:21.0.0] C:\Users\acer\.gradle\caches\transforms-3\5f4abcb8e5e46dc919a75580302fac72\transformed\jetified-play-services-location-21.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\acer\.gradle\caches\transforms-3\e58b40177d1f604dcb625472fe4e47b0\transformed\jetified-play-services-location-20.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\83f59375a3713cbcc380ee6c72729f16\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\acer\.gradle\caches\transforms-3\8c6a5080d9e57d8325b7285b53f14141\transformed\fragment-1.5.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\acer\.gradle\caches\transforms-3\19645e87fae0fcca83fc34026df6bfa2\transformed\jetified-activity-1.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\3f6c8e9406159f1f16be8d5b72ed1362\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -123,14 +123,14 @@ MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\acer\.gradle\caches\tran
 MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\acer\.gradle\caches\transforms-3\7f7059741588fd7423a7cdf2c4ffcdcd\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:11:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\acer\.gradle\caches\transforms-3\d606caee8c7cccc4b37d69fe1611a859\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\acer\.gradle\caches\transforms-3\d606caee8c7cccc4b37d69fe1611a859\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-location:21.0.0] C:\Users\acer\.gradle\caches\transforms-3\5f4abcb8e5e46dc919a75580302fac72\transformed\jetified-play-services-location-21.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:21.0.0] C:\Users\acer\.gradle\caches\transforms-3\5f4abcb8e5e46dc919a75580302fac72\transformed\jetified-play-services-location-21.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\acer\.gradle\caches\transforms-3\e58b40177d1f604dcb625472fe4e47b0\transformed\jetified-play-services-location-20.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\acer\.gradle\caches\transforms-3\e58b40177d1f604dcb625472fe4e47b0\transformed\jetified-play-services-location-20.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\83f59375a3713cbcc380ee6c72729f16\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\83f59375a3713cbcc380ee6c72729f16\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:13:5-27:19
 MERGED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:13:5-27:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\96aa35fdf059a23ca7bea4cb8450a8d9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
@@ -247,14 +247,14 @@ MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\acer\.gradle\caches\tr
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\acer\.gradle\caches\transforms-3\5935d57e2d8d314bb30dd4a05ecffbea\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\2fdfb9ea55b72826c940dd329313f521\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\2fdfb9ea55b72826c940dd329313f521\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-location:21.0.0] C:\Users\acer\.gradle\caches\transforms-3\5f4abcb8e5e46dc919a75580302fac72\transformed\jetified-play-services-location-21.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:21.0.0] C:\Users\acer\.gradle\caches\transforms-3\5f4abcb8e5e46dc919a75580302fac72\transformed\jetified-play-services-location-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\acer\.gradle\caches\transforms-3\e58b40177d1f604dcb625472fe4e47b0\transformed\jetified-play-services-location-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:20.0.0] C:\Users\acer\.gradle\caches\transforms-3\e58b40177d1f604dcb625472fe4e47b0\transformed\jetified-play-services-location-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\83f59375a3713cbcc380ee6c72729f16\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\83f59375a3713cbcc380ee6c72729f16\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\acer\.gradle\caches\transforms-3\8c6a5080d9e57d8325b7285b53f14141\transformed\fragment-1.5.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\acer\.gradle\caches\transforms-3\8c6a5080d9e57d8325b7285b53f14141\transformed\fragment-1.5.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\acer\.gradle\caches\transforms-3\19645e87fae0fcca83fc34026df6bfa2\transformed\jetified-activity-1.5.1\AndroidManifest.xml:20:5-22:41
@@ -364,11 +364,11 @@ ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gra
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\2a84e774f8a65f9ebca37d858e2bb609\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
 uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
 ADDED from [com.github.BirjuVachhani:locus-android:4.1.0] C:\Users\acer\.gradle\caches\transforms-3\f352b3e92b3294ac94405d07598708c8\transformed\jetified-locus-android-4.1.0\AndroidManifest.xml:11:5-85
 	android:name

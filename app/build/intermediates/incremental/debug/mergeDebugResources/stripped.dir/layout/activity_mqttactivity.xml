@@ -100,8 +100,10 @@
 <!--        app:layout_constraintEnd_toEndOf="parent"-->
 <!--        app:layout_constraintStart_toStartOf="parent"/>-->
     <EditText
+        android:background="@null"
         android:inputType="textMultiLine"
         android:ems="50"
+        android:textAlignment="center"
         android:focusableInTouchMode="true"
         android:cursorVisible="false"
         android:focusable="false"

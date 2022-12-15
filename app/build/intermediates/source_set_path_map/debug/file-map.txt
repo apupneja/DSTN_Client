@@ -11,8 +11,8 @@ com.example.client.app-jetified-lifecycle-viewmodel-ktx-2.5.1-9 C:\Users\acer\.g
 com.example.client.app-lifecycle-viewmodel-2.5.1-10 C:\Users\acer\.gradle\caches\transforms-3\5209decdb8ec1718760b39013c2624d8\transformed\lifecycle-viewmodel-2.5.1\res
 com.example.client.app-drawerlayout-1.1.1-11 C:\Users\acer\.gradle\caches\transforms-3\55ffebeb0add71274c85dd603e5cb374\transformed\drawerlayout-1.1.1\res
 com.example.client.app-appcompat-1.4.1-12 C:\Users\acer\.gradle\caches\transforms-3\5935d57e2d8d314bb30dd4a05ecffbea\transformed\appcompat-1.4.1\res
-com.example.client.app-cardview-1.0.0-13 C:\Users\acer\.gradle\caches\transforms-3\5e876280c8c412fff079642abeca69ff\transformed\cardview-1.0.0\res
-com.example.client.app-jetified-play-services-basement-18.1.0-14 C:\Users\acer\.gradle\caches\transforms-3\61595db014841a30b6609d46baf22282\transformed\jetified-play-services-basement-18.1.0\res
+com.example.client.app-jetified-play-services-basement-18.0.0-13 C:\Users\acer\.gradle\caches\transforms-3\5d6a263b149ac8bf6c8133e33cac0869\transformed\jetified-play-services-basement-18.0.0\res
+com.example.client.app-cardview-1.0.0-14 C:\Users\acer\.gradle\caches\transforms-3\5e876280c8c412fff079642abeca69ff\transformed\cardview-1.0.0\res
 com.example.client.app-jetified-lifecycle-runtime-ktx-2.5.1-15 C:\Users\acer\.gradle\caches\transforms-3\7406809292b257f6741bdd718d7b0354\transformed\jetified-lifecycle-runtime-ktx-2.5.1\res
 com.example.client.app-jetified-appcompat-resources-1.4.1-16 C:\Users\acer\.gradle\caches\transforms-3\81ea54cca3ed15decc2038227f7ebf40\transformed\jetified-appcompat-resources-1.4.1\res
 com.example.client.app-jetified-emoji2-views-helper-1.0.0-17 C:\Users\acer\.gradle\caches\transforms-3\8a06f4a9590bbed7f85f11f194467570\transformed\jetified-emoji2-views-helper-1.0.0\res
